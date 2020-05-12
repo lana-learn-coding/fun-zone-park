@@ -12,6 +12,14 @@
     border-color: #FD9029 !important;
 }
 
+.breadcrumb {
+    border: 1px solid #E9ECEF !important;
+    background-color: white;
+}
+
+.breadcrumb > .active {
+    color: #FD9029;
+}
 
 /* footer */
 footer {

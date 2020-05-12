@@ -11,3 +11,28 @@
     background-color: #FD9029 !important;
     border-color: #FD9029 !important;
 }
+
+
+/* footer */
+footer {
+    font-size: 15px;
+}
+
+.footer--link {
+    color: white;
+}
+
+.footer--link:hover {
+    color: #E1E1E1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer--divider {
+    border-color: #CFCFCF;
+    margin: .5rem 0;
+}
+
+.footer--nav {
+    max-width: 500px;
+}

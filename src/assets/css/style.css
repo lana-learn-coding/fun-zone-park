@@ -5,3 +5,9 @@
 .text-orange {
     color: #FD9029 !important;
 }
+
+.btn-orange {
+    color: white;
+    background-color: #FD9029 !important;
+    border-color: #FD9029 !important;
+}

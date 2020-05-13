@@ -1,0 +1,46 @@
+.welcome__paragraph--text {
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.welcome__paragraph--header {
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+/* carousel banner */
+.carousel-after__card {
+    text-align: center;
+    background: #00B9B9;
+    color: white;
+    padding: 1.6rem 1.1rem 1.8rem 1.1rem;
+}
+
+.carousel-after__card--title {
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    margin-bottom: .6rem;
+}
+
+.carousel-after__card--text {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+@media (min-width: 992px) {
+    .carousel-after__card {
+        text-align: left;
+        padding: 2.2rem 2.2rem;
+    }
+
+    .carousel-after__card--title {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        margin-bottom: .8rem;
+    }
+
+    .carousel-after__card--text {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+    }
+}

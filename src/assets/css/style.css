@@ -12,6 +12,21 @@
     border-color: #FD9029 !important;
 }
 
+.btn-orange:hover {
+    color: white;
+    background-color: #D06B00 !important;
+    border-color: #D06B00 !important;
+}
+
+/* input icon style */
+.form-control.is-invalid {
+    background-image: none;
+}
+
+.form-control.is-valid {
+    background-image: none;
+}
+
 /* breadcrumb */
 .breadcrumb {
     border: 1px solid #E9ECEF !important;

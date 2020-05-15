@@ -1,15 +1,27 @@
 .bg-orange {
-    background: #FD9029 !important;
+    background: #FD9029;
 }
 
 .text-orange {
     color: #FD9029 !important;
 }
 
+/* btn */
 .btn-orange {
     color: white;
     background-color: #FD9029 !important;
     border-color: #FD9029 !important;
+}
+
+.btn-outline-orange {
+    color: #FD9029;
+    border-color: #FD9029;
+}
+
+.btn-outline-orange:hover {
+    color: white;
+    background-color: #FD9029 !important;
+    border-color: #FD9029;
 }
 
 .btn-orange:hover {
@@ -106,3 +118,28 @@ footer {
     }
 }
 
+/* pagination */
+.pagination.bg-orange {
+    background: transparent;
+}
+
+.pagination.bg-orange .page-item > a {
+    background: #FD9029;
+    border: 1px solid #FD9029;
+    color: white;
+    border-radius: 10%;
+}
+
+.pagination.bg-orange .page-item.active > a {
+    background: #D06B00;
+    border: 1px solid #D06B00;
+}
+
+.pagination.bg-orange .page-item.disabled > a {
+    background: #FFAB90;
+    border: 1px solid #FFAB90;
+}
+
+.pagination.bg-orange .page-item {
+    margin: .2rem;
+}

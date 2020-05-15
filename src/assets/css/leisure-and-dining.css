@@ -1,0 +1,31 @@
+.dropdown-item.active {
+    background: #FD9029 !important;
+}
+
+.dining-card__title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #17a2b8 !important;
+    margin-top: .8rem;
+    margin-bottom: .7rem;
+}
+
+.dining-card__title--icon {
+    font-size: 1.2rem !important;
+    color: #FD9029 !important;
+}
+
+
+@media (min-width: 768px) {
+    .dining-card__title {
+        margin-top: .3rem;
+        font-size: 1.2rem;
+        color: inherit;
+    }
+}
+
+@media (min-width: 992px) {
+    .dining-card__title {
+        font-size: 1.5rem;
+    }
+}

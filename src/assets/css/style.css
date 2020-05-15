@@ -1,5 +1,5 @@
 .bg-orange {
-    background: #FD9029;
+    background: #FD9029 !important;
 }
 
 .text-orange {
@@ -120,7 +120,7 @@ footer {
 
 /* pagination */
 .pagination.bg-orange {
-    background: transparent;
+    background: transparent !important;
 }
 
 .pagination.bg-orange .page-item > a {

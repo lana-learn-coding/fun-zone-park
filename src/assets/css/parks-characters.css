@@ -1,0 +1,96 @@
+.characters-img {
+    width: 100%;
+    height: 100%;
+}
+
+.characters-item {
+    width: 100%;
+    height: 250px;
+    /* border: solid 1px blue */
+}
+
+.text-orange:hover {
+    color: #14A9BD !important;
+}
+
+small {
+    color: #656e7d;
+}
+
+.park-characters-item1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.park-characters-item1 div img {
+    width: 726px;
+    height: 547px;
+}
+
+.park-characters-item1 br {
+    border: 1px solid black;
+    background: black;
+    width: 960px;
+}
+
+.page-link {
+    background-color: #FD9029;
+    color: white;
+    border-radius: 10%;
+}
+
+.page-link:hover {
+    background-color: #FD9029;
+    color: #14A9BD;
+}
+
+.item3 div div img {
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    color: #656e7d;
+}
+
+hr {
+    border-top: solid 1px #e1e4e8;
+    width: 100%;
+}
+
+.comeback a {
+    color: white;
+}
+
+.comeback a:hover {
+    text-decoration: none;
+    color: #1298AB;
+}
+
+h1 {
+    color: #1298AB;
+}
+
+.link-item {
+    font-size: 1.2rem;
+}
+
+.link-item:hover {
+    color: #FD9029 !important;
+}
+
+.link div div img {
+    width: 100%;
+    height: 100%;
+}
+
+.link div div {
+    /* border: solid 1px blue; */
+    width: 100%;
+    height: 156px;
+}
+
+.page-item {
+    margin-left: 0.12rem;
+    margin-right: 0.12rem;
+}

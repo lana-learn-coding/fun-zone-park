@@ -6,6 +6,10 @@
     color: #FD9029 !important;
 }
 
+.border-orange {
+    border-color: #FD9029 !important;
+}
+
 /* btn */
 .btn-orange {
     color: white;
@@ -155,4 +159,5 @@ a.text-info {
 
 a.text-info:hover {
     text-decoration: none !important;
+    color: #00B9B9;
 }

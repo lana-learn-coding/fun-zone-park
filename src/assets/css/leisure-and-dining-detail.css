@@ -1,0 +1,28 @@
+.large {
+    font-size: 110%;
+}
+
+.separator {
+    border-top: 1px solid black;
+}
+
+.map-card__comment--wrapper {
+    position: relative;
+}
+
+.map-card__comment--text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.map-card__comment--overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}

@@ -5,9 +5,17 @@
 .dining-card__title {
     font-weight: 500;
     font-size: 1.5rem;
-    color: #17a2b8 !important;
     margin-top: .8rem;
     margin-bottom: .7rem;
+}
+
+.dining-card__title--link {
+    color: #17a2b8;
+}
+
+.dining-card__title--link:hover {
+    text-decoration: none !important;
+    color: #00B9B9;
 }
 
 .dining-card__title--icon {

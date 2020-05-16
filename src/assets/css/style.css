@@ -152,7 +152,7 @@ footer {
     margin: .2rem;
 }
 
-/* info link */
+/* link styles */
 a.text-info {
     color: #17a2b8;
 }
@@ -160,4 +160,13 @@ a.text-info {
 a.text-info:hover {
     text-decoration: none !important;
     color: #00B9B9;
+}
+
+a.text-orange {
+    color: #FD9029;
+}
+
+a.text-orange:hover {
+    text-decoration: none !important;
+    color: #FFAB90 !important;
 }

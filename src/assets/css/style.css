@@ -49,6 +49,10 @@
     color: #FD9029;
 }
 
+.breadcrumb-item a:hover {
+    text-decoration: none !important;
+}
+
 /* footer */
 footer {
     font-size: 95%;
@@ -142,4 +146,13 @@ footer {
 
 .pagination.bg-orange .page-item {
     margin: .2rem;
+}
+
+/* info link */
+a.text-info {
+    color: #17a2b8;
+}
+
+a.text-info:hover {
+    text-decoration: none !important;
 }

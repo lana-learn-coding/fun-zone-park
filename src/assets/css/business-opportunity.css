@@ -1,0 +1,58 @@
+.banner__feature-icons-item {
+    max-width: 20rem;
+    text-align: center;
+    margin: 1rem auto 1.5rem auto;
+}
+
+.banner__feature-icons-icon {
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner__feature-icons-icon > *:first-child {
+    font-size: 5rem;
+    color: #FD9029;
+}
+
+.banner__feature-icons-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.banner__feature-icons-text {
+    font-weight: 300;
+    color: #6c757d;
+}
+
+.larger {
+    font-size: 1.1rem;
+}
+
+.job-board__category--header {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.job-board__category--card {
+    margin: .6rem 0;
+    padding: .6rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.job-board__category--card:hover {
+    color: #17a2b8 !important;
+    cursor: pointer;
+    padding: .6rem 1rem .6rem 1.2rem;
+}
+
+.fixed-ratio {
+    width: 100%;
+    height: 0;
+    padding-bottom: 55%;
+    overflow: hidden;
+}

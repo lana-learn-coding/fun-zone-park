@@ -1,12 +1,13 @@
 {
   "name": "fun-zone-park",
   "version": "1.0.0",
-  "description": "FunZone Park font end",
+  "description": "Fun Zone Park font end",
+  "private": true,
   "dependencies": {
-    "serve": "^11.3.0"
+    "http-server": "^0.12.3"
   },
   "scripts": {
-    "start": "serve ./src"
+    "start": "http-server ./src"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,6 @@
   "keywords": [
     "park"
   ],
-  "author": "",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Lana-Learn-Front-End/fun-zone-park/issues"

@@ -1,24 +1,7 @@
-.welcome__paragraph--text {
-    font-size: 1.1rem;
-    line-height: 2rem;
-    margin-bottom: .5rem;
-}
-
-.welcome__paragraph--header {
-    font-weight: 500;
-    font-size: 1.8rem;
-    margin-bottom: .5rem;
-}
-
-.experience-fun-zone-img img {
-    width: 100%;
-    height: 100%;
-}
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .text-fun-zone-info-detail {
         line-height: 1.0rem;
-        font-size: 79%;
+        font-size: 80%;
     }
 
     .text-fun-zone-info-detail {
@@ -43,22 +26,6 @@
     .text-fun-zone-info-detail {
         padding-bottom: 0.5rem;
     }
-}
-
-.park-info-events div {
-    width: 100%;
-    height: 100%;
-}
-
-.park-info-events div img {
-    width: 100%;
-    height: 100%;
-}
-
-.experience-text {
-    padding-left: 5rem;
-    padding-right: 7rem;
-    padding-top: 2.5rem;
 }
 
 .carousel {
@@ -92,5 +59,42 @@
 
     .carousel-image {
         width: 100%;
+    }
+}
+
+/* carousel banner */
+.feature-card {
+    text-align: center;
+    color: white;
+    padding: 1.6rem 1.1rem 1.8rem 1.1rem;
+}
+
+.feature-card--title {
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    margin-bottom: .6rem;
+}
+
+.feature-card--text {
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+}
+
+@media (min-width: 992px) {
+
+    .feature-card {
+        text-align: left;
+        padding: 2.2rem 2.2rem;
+    }
+
+    .feature-card--title {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        margin-bottom: .8rem;
+    }
+
+    .feature-card--text {
+        font-size: 1.2rem;
+        line-height: 1.3rem;
     }
 }

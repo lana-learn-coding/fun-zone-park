@@ -1,0 +1,96 @@
+.welcome__paragraph--text {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    margin-bottom: .5rem;
+}
+
+.welcome__paragraph--header {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+}
+
+.experience-fun-zone-img img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .text-fun-zone-info-detail {
+        line-height: 1.0rem;
+        font-size: 79%;
+    }
+
+    .text-fun-zone-info-detail {
+        line-height: 1.7rem;
+    }
+
+    .experience-fun-zone-img {
+        line-height: 1.7rem;
+    }
+
+    .experience-text {
+        padding: 1rem 2rem 0.5em 1.5rem !important;
+    }
+
+    .experience-fun-zone-img {
+        padding-left: 1.5rem !important;
+        padding-right: 2rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-fun-zone-info-detail {
+        padding-bottom: 0.5rem;
+    }
+}
+
+.park-info-events div {
+    width: 100%;
+    height: 100%;
+}
+
+.park-info-events div img {
+    width: 100%;
+    height: 100%;
+}
+
+.experience-text {
+    padding-left: 5rem;
+    padding-right: 7rem;
+    padding-top: 2.5rem;
+}
+
+.carousel {
+    height: 380px;
+    overflow: hidden;
+}
+
+@media (min-width: 576px) {
+    .carousel {
+        height: 420px;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel {
+        height: 480px;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel {
+        height: 510px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel {
+        height: auto;
+        max-height: 800px;
+    }
+
+    .carousel-image {
+        width: 100%;
+    }
+}

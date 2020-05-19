@@ -1,0 +1,18 @@
+.container-inner {
+    position: relative;
+    background: white;
+}
+
+.image {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .top-move {
+        margin-top: -60px;
+    }
+
+    .container-inner {
+        border: 1px solid rgba(0, 0, 0, .4);
+    }
+}

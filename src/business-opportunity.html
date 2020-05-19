@@ -14,9 +14,11 @@
 <body class="d-flex flex-column vh-100">
 <header data-include-template="header"></header>
 <section class="flex-grow-1">
-    <div class="w-100 bg-dark" style="height: 400px"></div>
     <div class="container mb-5">
-        <!--features-icon-->
+        <ol class="breadcrumb mt-3 mt-md-4 mb-0">
+            <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+            <li class="breadcrumb-item active">Business Opportunity</li>
+        </ol>
         <div class="row py-4">
             <div class="col-12 col-sm-6 col-lg-3">
                 <div class="banner__feature-icons-item">
@@ -98,7 +100,7 @@
                             <div class="col-12 col-md-8 col-lg-9">
                                 <div class="card-body pb-3 pt-0 pt-md-3">
                                     <h5 class="card-title">Restaurant Manager</h5>
-                                    <div class="card-subtitle text-muted">Alien Planet Pizza</div>
+                                    <div class="card-subtitle text-muted">Alien Pizza Planet</div>
                                     <div class="card-text my-2 my-md-3">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. At dignissimos nemo
                                         perferendis quia rerum! At fugiat rem vel veniam voluptates!
@@ -434,17 +436,70 @@
 <!--job detail modal-->
 <div aria-hidden="true" aria-labelledby="exampleModalLabel" class="modal fade" id="job-detail-modal" role="dialog"
      tabindex="-1">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-body">
-
+                <h4 class="mb-3">Restaurant Manager</h4>
+                <div class="row no-gutters">
+                    <div class="col-12 col-lg-6">
+                        <img class="card-img w-100" src="assets/image/business-opportunity/job3.jpg">
+                    </div>
+                    <div class="col-12 col-lg-6 larger pl-lg-3 pt-3 pt-lg-0">
+                        <div class="mb-1"><i class="fas fa-coins mr-2"></i> Up to 4k</div>
+                        <div class="mb-1"><i class="far fa-clock mr-2"></i> Full Time</div>
+                        <div class="mb-1"><i class="fas fa-map-marked mr-2"></i> Alien Pizza Planet</div>
+                        <div class="mb-1"><i class="fas fa-briefcase mr-2"></i> 3 - 5 year experience in restaurant
+                            management
+                        </div>
+                        <div class="mb-1"><i class="fas fa-briefcase mr-2"></i> Can work well under high pressure</div>
+                        <div class="mb-1"><i class="fas fa-briefcase mr-2"></i> Can speak english fluently</div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <h5>About This Job</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae, debitis delectus
+                        dicta error et, illum inventore ipsum modi optio pariatur porro quaerat quas quasi quis quo
+                        sunt, tenetur voluptate! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum
+                        doloribus eveniet facere in minus nihil odit, placeat porro quos sed vero voluptate? At aut
+                        deleniti deserunt doloremque error esse, fugiat illo minima minus praesentium quam qui quia
+                        veniam, voluptates?
+                    </p>
+                    <h5>What you will get</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dicta, ducimus expedita
+                        fugiat ipsam molestias mollitia nobis odio officia quae repudiandae rerum sapiente sed
+                        similique, suscipit temporibus voluptatum. Dolores, rerum.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias amet asperiores atque
+                        consequuntur cumque, cupiditate debitis dolorum eius, expedita explicabo illo incidunt labore
+                        magnam magni modi mollitia nisi numquam odit perferendis praesentium provident quas quia quo rem
+                        tenetur voluptas.
+                    </p>
+                    <h5>Contact Us</h5>
+                    <p>
+                        Lorem ipsum dolor sit amet, <span class="text-orange">alienpizzaplanet@funzone.com</span>
+                        consectetur adipisicing elit. Alias beatae dolorem hic libero modi <span class="text-orange"> 091231231311 </span>
+                        porro sequi tempora unde. Est, voluptas!
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur <span class="text-orange">contact@funzone.com</span>
+                        adipisicing elit. Aspernatur facilis fuga neque
+                        praesentium repellat ut.</p>
+                </div>
+                <hr>
                 <div class="d-flex justify-content-end">
                     <button class="btn btn-secondary mr-2" data-dismiss="modal" type="button">Close</button>
-                    <button class="btn btn-info" type="button">Contact Us</button>
+                    <a class="btn btn-info mr-2" href="contact-us.html">Contact <span
+                            class="d-none d-md-inline">Us</span></a>
+                    <a class="btn btn-orange" href="mailto:alienpizzaplanet@funzone.com">Apply <span
+                            class="d-none d-md-inline">Now</span></a>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <footer data-include-template="footer"></footer>
 <!--lib-->

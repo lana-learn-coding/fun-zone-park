@@ -8,6 +8,7 @@
     <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/lib/fa.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/lib/animate.min.css" rel="stylesheet">
     <title>Fun Zone - What ups</title>
     <style>
         .excerpt-bottom {
@@ -17,7 +18,7 @@
 </head>
 <body class="d-flex flex-column vh-100">
 <header>
-    <div class="bg-light d-flex">
+    <div class="bg-light d-flex wow fadeInDown">
         <div class="container">
             <div class="row justify-content-center justify-content-md-between">
                 <img alt="logo" class="col-lg-3 col-md-4 col-sm-5 col-7 mt-1" src="assets/image/logo.png">
@@ -73,9 +74,9 @@
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item active">What Ups</li>
         </ol>
-        <div class="row my-20">
+        <div class="row my-2">
             <div class="col-md-9">
-                <div class="mb-3 mb-md-4">
+                <div class="mb-3 mb-md-4 wow fadeIn">
                     <h3><a class="text-info" href="whats-up-detail.html">WATER FIGHT FESTIVAL</a></h3>
                     <div class="row">
                         <div class="col-md-5">
@@ -106,7 +107,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class=" excerpt-bottom ">
+                        <div class="excerpt-bottom">
                             <div class="d-flex flex-column flex-md-row">
                                 <div class="p-2">
                                     <i class="fas fa-tag text-orange"></i><span class="ml-2">Water Park, Festival</span>
@@ -128,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class="mb-3 mb-md-4">
+                <div class="mb-3 mb-md-4 wow fadeIn">
                     <h3><a class="text-info" href="whats-up-detail.html">MUSIC FESTIVAL</a></h3>
                     <div class="row">
                         <div class="col-md-5">
@@ -181,7 +182,7 @@
                     </div>
                 </div>
 
-                <div class="mb-3 mb-md-4">
+                <div class="mb-3 mb-md-4 wow fadeIn">
                     <h3><a class="text-info" href="whats-up-detail.html">DINNER WITH OUR CHARACTER</a></h3>
                     <div class="row">
                         <div class="col-md-5">
@@ -234,7 +235,7 @@
                     </div>
                 </div>
 
-                <div class="mb-3 mb-md-4">
+                <div class="mb-3 mb-md-4 wow fadeIn">
                     <h3><a class="text-info" href="whats-up-detail.html">FIRE CAMP</a></h3>
                     <div class="row">
                         <div class="col-md-5">
@@ -287,7 +288,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 wow fadeInUp">
                 <hr class="d-md-none">
                 <h4 class="text-orange mb-3">UPCOMING EVENT</h4>
                 <div>
@@ -375,7 +376,10 @@
 <script src="assets/js/lib/jquery-3.5.1.min.js"></script>
 <script src="assets/js/lib/bootstrap.bundle.min.js"></script>
 <script src="assets/js/lib/fa.min.js"></script>
+<script src="assets/js/lib/wow.min.js"></script>
 <!--js-->
-
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>

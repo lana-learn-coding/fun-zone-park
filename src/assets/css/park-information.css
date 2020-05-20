@@ -39,15 +39,22 @@
 }
 
 @media (min-width: 992px) {
+    .top-move {
+        margin-top: -70px;
+    }
+
     .carousel {
         height: 520px;
     }
 }
 
 @media (min-width: 1200px) {
+    .top-move {
+        margin-top: -80px;
+    }
+
     .carousel {
-        height: auto;
-        max-height: 800px;
+        max-height: 680px;
     }
 
     .carousel-image {

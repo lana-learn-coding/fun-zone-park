@@ -3,6 +3,10 @@
     background: white;
 }
 
+.text-title {
+    font-size: 110%;
+}
+
 .image {
     width: 100%;
 }

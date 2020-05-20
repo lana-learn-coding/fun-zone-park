@@ -49,6 +49,14 @@
     background-color: white;
 }
 
+.breadcrumb-item > a {
+    color: #17a2b8;
+}
+
+.breadcrumb-item > a:hover {
+    color: #00B9B9;
+}
+
 .breadcrumb > .active {
     color: #FD9029;
 }

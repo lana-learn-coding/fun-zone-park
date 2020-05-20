@@ -115,7 +115,7 @@
 
 .parallax {
     /* The image used */
-    background-image: url('..e/bg.jpg');
+    background-image: url('../image/home/bg.jpg');
 
     background-attachment: fixed;
     background-position: center;

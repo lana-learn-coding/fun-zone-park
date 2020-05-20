@@ -8,17 +8,13 @@
     <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/lib/fa.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <style>
-        .map {
-            width: 100%;
-            padding-bottom: 45%;
-        }
-    </style>
-    <title>Fun Zone - Contact us</title>
+    <link href="assets/css/contact-us.css" rel="stylesheet">
+    <link href="assets/css/lib/animate.min.css" rel="stylesheet">
+    <title>Fun Zone - Contact Us</title>
 </head>
 <body class="d-flex flex-column vh-100">
 <header>
-    <div class="bg-light d-flex">
+    <div class="bg-light d-flex wow fadeInDown">
         <div class="container">
             <div class="row justify-content-center justify-content-md-between">
                 <img alt="logo" class="col-lg-3 col-md-4 col-sm-5 col-7 mt-1" src="assets/image/logo.png">
@@ -77,13 +73,13 @@
         </ol>
         <div class="row">
             <!--map-->
-            <div class="col-12 mb-3 mb-md-4 mb-lg-5">
+            <div class="col-12 mb-3 mb-md-4 mb-lg-5 wow fadeIn" data-wow-delay=".5s">
                 <div class="w-100">
                     <div class="map" id="map"></div>
                 </div>
             </div>
             <!--contact form-->
-            <div class="col-lg-8 mb-4">
+            <div class="col-lg-8 mb-4 wow fadeIn">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="mt-0 mb-3 text-orange">Feel Free to Contact Us</h4>
@@ -124,7 +120,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 wow fadeIn">
                 <!--address-->
                 <div class="row flex-md-row-reverse flex-lg-row">
                     <div class="col-md-6 col-lg-12">
@@ -251,13 +247,14 @@
 <script src="assets/js/lib/fa.min.js"></script>
 <script src="assets/js/lib/jquery.validate.min.js"></script>
 <script src="assets/js/lib/jquery.validate.migrate.js"></script>
+<script src="assets/js/lib/wow.min.js"></script>
 <!--js-->
 <script>
-    $("#contact-form").validate({
+    $('#contact-form').validate({
         rules: {
             phone: {
                 required: true,
-                regex: "^0[0-9]{9,10}$",
+                regex: '^0[0-9]{9,10}$'
             },
             firstname: {
                 required: true
@@ -271,23 +268,22 @@
         },
         messages: {
             phone: {
-                regex: "Invalid phone number format (start with 0, 10-11 number)"
+                regex: 'Invalid phone number format (start with 0, 10-11 number)'
             },
-            message: "Please enter some thing"
+            message: 'Please enter some thing'
         },
         submitHandler: (form) => {
             form.submit();
         }
     });
-</script>
 
-<!--geolocation api -->
-<script>
     function initMap() {
-        const uluru = {lat: 42.45, lng: 19.26};
-        const map = new google.maps.Map(document.getElementById('map'), {zoom: 16, center: uluru});
-        const marker = new google.maps.Marker({position: uluru, map: map});
+        const uluru = { lat: 42.45, lng: 19.26 };
+        const map = new google.maps.Map(document.getElementById('map'), { zoom: 16, center: uluru });
+        const marker = new google.maps.Marker({ position: uluru, map: map });
     }
+
+    new WOW().init();
 </script>
 <!--TODO: add api key in production-->
 <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap">
